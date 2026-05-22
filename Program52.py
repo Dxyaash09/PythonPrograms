@@ -1,0 +1,21 @@
+items=[10,20,30,40,50,60,70,80,90,100]
+#slicing
+items[1:]
+print(items[1:])
+items[2:9]
+print(items[2:9])
+items[:7]
+print(items[:7])
+items[::7]
+print(items[::7])
+items[::2]
+print(items[::2])
+items[-1]
+print(items[-1])
+items[::-2]
+print(items[::-2])
+for i in range(1,10):
+ num1=[1:]
+#num2=2
+mul=num1*num2
+print("mul=",mul)

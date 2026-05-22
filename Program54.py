@@ -1,0 +1,12 @@
+a=['Apple','Banana','Kiwi']
+a.insert(1,'Mango')
+print(a)
+a.append('Watermelon')
+print(a)
+a.remove('Kiwi')
+print(a)
+i=a.index('Banana')
+print(i)
+last_element=a.pop()
+print(last_element)
+print(a)
